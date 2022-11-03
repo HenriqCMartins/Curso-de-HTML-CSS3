@@ -31,7 +31,7 @@ a {
     font-weight: bolder;
 }
 
-a::hover{
+a:hover{
     text-decoration: underline;
 }
 
