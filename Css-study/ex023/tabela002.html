@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 002</title>
+    <style>
+        table{
+            width: 500px;
+            border-collapse:collapse ;
+        }
+        caption{
+            background-color: lightgray;
+            padding: 8px;
+        }
+        thead, tfoot{
+            background-color: dimgray;
+            color: azure;
+        }
+
+        td, th{
+            border: 1px solid black;
+            
+            padding: 10px;
+        }
+
+        td.num{
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px
+                ;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>"
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total de Habitantes</th>
+            <td class="num">84.352.783</td>
+        </tfoot>
+
+</body>
+</html>
