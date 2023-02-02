@@ -9,6 +9,7 @@
         table{
             width: 500px;
             border-collapse:collapse ;
+            position: relative;
         }
         caption{
             background-color: lightgray;
@@ -17,6 +18,12 @@
         thead, tfoot{
             background-color: dimgray;
             color: azure;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: dimgray;
         }
 
         tbody > tr:nth-child(odd){
@@ -58,11 +65,24 @@
                 <td>Rio de Janeiro</td>
                 <td class="num">17.264.943</td>
             </tr>
+            <tr>
+                <td>Pavão Pavãozinho</td>
+                <td class="num">5.000</td>
+            </tr>
+            <tr>
+                <td>Rocinha</td>
+                <td class="num
+                ">7.000</td>
+            </tr>
         </tbody>
         <tfoot>
             <th scope="row">Total de Habitantes</th>
             <td class="num">84.352.783</td>
         </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, totam eligendi beatae rem soluta praesentium delectus mollitia ipsum necessitatibus sapiente doloribus impedit porro culpa aliquid dolore aperiam! Sit, facere fuga. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore facilis aliquam, exercitationem quis officiis voluptas at atque voluptate ea ullam labore adipisci iusto assumenda hic voluptatum. Corporis culpa dolorem dignissimos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt quidem dolores maxime adipisci voluptatem debitis, aperiam enim esse quisquam soluta quia impedit itaque maiores, sit animi molestias repudiandae at facere!</p>
 
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, assumenda! Cum expedita inventore necessitatibus facilis? Porro eaque harum, rem quibusdam laboriosam dolor eveniet autem labore ut, quia aspernatur, a mollitia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, id? Soluta dolor molestiae natus corporis dolorem nihil nostrum maxime impedit a aperiam dolores tempora est adipisci magnam, quidem quisquam fuga. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid tenetur aut nesciunt? Eum consequatur consectetur corporis quam voluptas harum ea vel itaque. Cum ad libero molestias, natus harum tempore eveniet.</p>
 </body>
 </html>
