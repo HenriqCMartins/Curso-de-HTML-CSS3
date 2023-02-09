@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Notas</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+        }
+
+        thead{
+            background-color: gray;
+            color: white;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+
+        #exatas{
+            background-color: gray;
+            color: white;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr class="gray">
+                <th scope="col" rowspan="2">Área</th>
+                <th scope="col" rowspan="2">Diciplinas</th>
+                <th scope="colgroup" colspan="2">Notas</th>
+                <th scope="col" rowspan="2">Média</th>
+            </tr>
+            <tr class="gray">
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="4">Exatas</th>
+                <tr>
+                    <th>Matemática</th>
+                    <td>8,0</td>
+                    <td>6,0</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <th>Física</th>
+                    <td>10</td>
+                    <td>9,0</td>
+                    <td>9,5</td>
+                </tr>
+                <tr>
+                    <th>Biologia</th>
+                    <td>5,0</td>
+                    <td>8,0</td>
+                    <td>6,5</td>
+                </tr>
+            </tr>
+
+            <tr id="exatas">
+                <th scope="row" colspan="4" >Média de Exatas</th>
+                <td>7,40</td>
+            </tr>
+
+            <tr>
+                <th scope="rowgroup" rowspan="3">Humanas</th>
+                <tr>
+                    <td>História</td>
+                    <td>5,0</td>
+                    <td>8,0</td>
+                    <td>6,5</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td>6,0</td>
+                    <td>8,0</td>
+                    <td>7,0</td>
+                </tr>
+            </tr>
+            <tr id="exatas">
+                <th scope="row" colspan="4" >Média de Humanas</th>
+                <td>6,75</td>
+            </tr>
+
+
+        </tbody>
+    </table>
+    
+</body>
+</html>
