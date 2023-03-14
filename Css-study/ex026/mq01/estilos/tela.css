@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    line-height: 2em;
+
+}
+
+header{
+    background-color: darkgrey;
+
+}
+
+header > h1{
+    text-align: center;
+    padding: 20px;
+}
+
+menu ul{
+    list-style-type: none;
+
+}
+
+menu li{
+    display: inline-block;
+    padding: 10px;
+    background-color: chartreuse;
+    border-radius: 5px;
+}
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+article > h2{
+    padding-bottom: 20px;
+}
+
+article > p{
+    padding-top: 7px;
+}
