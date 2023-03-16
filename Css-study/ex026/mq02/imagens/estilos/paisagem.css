@@ -1,0 +1,9 @@
+body{
+    background-color: aqua;
+    background: url(../paisagem.jpg);
+    height: 100vh;
+    background-repeat: no-repeat ;
+}
+h1{
+    color: chartreuse;
+}

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body, html{
+    font-size: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(..imagens/retrat);
+    background-size: contain;
+
+
+}
+

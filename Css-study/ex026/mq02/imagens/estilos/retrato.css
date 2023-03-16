@@ -1,0 +1,8 @@
+body{
+    background-image: url(../retrato.jpg);
+    height:400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
