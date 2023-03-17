@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <img src="retrato.jpg" alt="retrato">
+
+
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p> Seja bem vindo(a) novamente. Faça login para acessar sua conta. </p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <p>
+                        <label for="usuario">Login :</label>
+                        <input type="text" name="username" id="usuario" required max="20">
+                        <input type="reset" value="✂">
+
+                    </p>
+                    <p>
+                        <label for="senha">Senha :</label>
+                        <input type="password" name="chave" id="senha" required min="8" max="20">
+                        <input type="reset" value="✂">
+                    </p>
+                    <p>
+                        <input type="submit" value="Acessar">
+                        <input type="button" value="Esqueci a senha">
+                    </p>
+
+                </form>
+            </div>
+
+        </section>
+    </main>
+    
+</body>
+</html>
